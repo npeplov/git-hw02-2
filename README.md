@@ -10,15 +10,17 @@ git clone https://github.com/npeplov/git-hw01-1
 ````
 
 
-### Prerequisites установить
+### Prerequisites 
+Нужно установить:
 * [GitHub Desktop](https://desktop.github.com/)
 * [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ### Установка и запуск
-Пошаговый процесс установки и запуска
-
+В консоли VS Code:
 ````
-Примеры
+git add *
+git commit -a -m "feat(README.md)
+git push -u origin master
 ````
 
 ## Лицензия
