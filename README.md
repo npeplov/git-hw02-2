@@ -31,4 +31,4 @@ git push -u origin master
 ````
 
 ## Лицензия
-Free
+Бесплатно
