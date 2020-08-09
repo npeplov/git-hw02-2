@@ -8,27 +8,23 @@
 * Высокая скорость поиска
 * Низкая цена
 
-## Начало работы
-1. ПКМ в целевом каталоге в проводнике, выбрать **Git Bash Here**
+Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
-1. В консоли Гит:
+JavaScript:
+
 ````
-git clone https://github.com/npeplov/git-hw01-1
+<script src="https://localhost/neuro.sdk.min.js"></script>
 ````
-
-
-### Prerequisites 
-Нужно установить:
-* [GitHub Desktop](https://desktop.github.com/)
-* [Visual Studio Code](https://code.visualstudio.com/Download)
-
-### Установка и запуск
-В консоли VS Code:
+Java (Maven):
 ````
-git add *
-git commit -a -m "feat(README.md)
-git push -u origin master
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ````
-
-## Лицензия
-Бесплатно
+iOS (добавьте код в ваш Podfile):
+````
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
+````
