@@ -15,7 +15,7 @@ JavaScript:
 ````
 <script src="https://localhost/neuro.sdk.min.js"></script>
 ````
-Java (Maven):
+Java (Maven) черный вереск:
 ````
 <dependency>
   <groupId>neuro</groupId>
